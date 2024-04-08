@@ -6,8 +6,8 @@ import streamlit as st
 import pickle
 import os
 
-file_path = r"C:\Users\Asus\OneDrive\Desktop\reptile\sms_classifier\Model.pkl"
-file_path2= r"C:\Users\Asus\OneDrive\Desktop\reptile\sms_classifier\tfidfvectorizer.pkl"
+file_path = r"Model.pkl"
+file_path2= r"tfidfvectorizer.pkl"
 
 with open(file_path, 'rb') as file:  
     Model = pickle.load(file)
